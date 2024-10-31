@@ -1,0 +1,112 @@
+
+#container{
+    width: 100%; /* nota-se tambem, que width é suposto maximo sempre que não declarado */
+    height: 100vh;
+
+    padding: 2.5%;
+
+    background-color:   rgba(249, 237, 222, 0.96);
+}
+/* header
+---------------------------- */
+h1{
+
+    padding: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
+
+    font-size: 4rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 700px;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    color: #cc7319;
+
+}
+h2,h3,h4,h5,h6 {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #343a407a;
+}
+h3 i{
+
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: large;
+    text-transform: none;
+    color: #343a407a;
+}
+.bheader h2,h3{
+    padding: 5px auto 0 auto;
+    margin: 5px auto 0 auto;
+
+    font-size: 3rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 700px;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    color: #000000bd;
+}
+#container h3{
+    color: #cc7319;
+}
+
+#subheading {
+    padding-top: 0;
+    margin-top: 0;
+
+    text-align: left;
+    text-transform: uppercase; /* grants the text is written in uppercase*/
+
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size:small;
+    font-stretch: narrower;
+} #subheading a{
+    color: #cc7319;
+} #subheading a:hover{
+    
+    text-decoration: underline;
+    color: #844e10;
+    transition: 150ms;
+}
+
+ /*logos dimentions
+ ------------------------------*/
+
+#icon_crop{
+    width:65px; /* Desired diameter */
+    height: 65px; /* Desired diameter */
+    margin: 50px;
+    overflow: hidden; /* Hides the overflow */
+    border-radius: 50%; /* Makes the container circular */
+    position: relative; /* Enables positioning of child elements */
+    border: 5px solid #fff; /* Add a border (adjust color and size as needed) */
+    display: flex; /* Enable flexbox for alignment */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+}
+
+
+
+#icon_crop img{
+    width: 100%; /* Make image take full width */
+    height: auto; /* Maintain aspect ratio */
+
+    object-fit: cover; /* Crop the image while maintaining aspect ratio */
+    position: absolute; /* Allows positioning */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+}#icon_crop:hover{
+    background-color: rgba(211, 124, 31, 0.528);
+    transition-duration: 300ms ;
+}

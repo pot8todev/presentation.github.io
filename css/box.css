@@ -1,0 +1,96 @@
+
+/* topic boxes
+----------------------------------------------- */
+.box, .hobbies, .textBox, .UniText, .textbox3{/**/
+    width: 80%;
+    height: 1em;
+
+    margin:0 auto auto auto;
+    padding: 5% ;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    color: #000000;
+    
+}.box:hover{
+    /* moving text upward */
+    padding-top: 2.5%; 
+    padding-bottom: 7.5%;
+
+    border: 5px solid  rgb(226, 53, 14);
+    color: rgb(5, 130, 88);
+    transition: 150ms;
+}
+/* tagbox in soft skills
+------------------------------*/
+.tagbox{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 0 ;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tagbox li{
+    width: 2m;
+    height: 2.5em;
+    margin: 0 2.5px 0 2.5%;
+    padding: 0.5em;
+    border:2px dashed rgba(210, 180, 129, 0.56);
+    border-radius: 25px;
+
+    display: inline;   
+
+}.tagbox li:hover{
+    cursor:pointer;
+    color: white;
+    background-color: #fba645b8;
+    transition: 300ms;
+    border:2px solid rgba(210, 180, 129, 0.56);
+}
+
+/*
+------------------------------------*/
+.UniText{
+    width: 80%;
+    height: 85%;
+    margin: 10px;
+    padding: 2%;
+    border-style: none;
+}
+.textbox{
+    width: 80%;
+    height: 10%;
+    padding: 0;
+    margin-top: 0;
+
+}.textbox h2{
+    font-size: 5rem;
+}
+
+.hobbies{
+    width: 15%;
+    height: 400px;
+    padding: 0;
+
+}.Hobbies ul{
+    
+    text-align: 
+    left;
+    font-size: 0.8em;
+
+}
+.SoftTags {
+    width: 80%;
+    line-height: 250%;
+    text-align: left;
+    font-size: 1em;
+    line-height: 400%;
+    list-style-type: none;
+    
+}
+.fotoedit img{
+    width: 20%;
+    border-radius:20%
+}

@@ -1,0 +1,70 @@
+
+
+.topics{
+    width: 80%;
+    height: 1em; 
+
+    margin: auto;
+    padding: 5%;
+
+    
+    text-transform: uppercase;
+    color:rgba(240, 255, 255, 0.433);
+}.topics:hover{
+    padding-top: 2.5%; 
+    padding-bottom: 7.5%;
+
+    color:rgb(243, 255, 255);
+    cursor: pointer;
+  
+    transition: 150ms;
+    transition-delay: 10ms; 
+
+}
+
+/* deixa marcada a sessao em que o usuário se encontra */
+.selected{
+    padding-top: 2.5%; 
+    padding-bottom: 7.5%;
+
+    text-transform: uppercase;
+    color:rgb(243, 255, 255);
+    cursor: pointer;
+}
+
+/* profile Container
+---------------------------------------------- */
+
+ #profile{ /* contains foto */
+    width: 25%;
+    padding-top: 10%;
+    
+    border: 1px solid #000;
+    background-color: #cc7919;
+} #profile .foto{
+
+    /* recorte da foto */
+    width: 90% ;
+    padding: 2%;
+
+    
+    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom,#d5954cb8 0%, #eba351fd   100%);
+    background-clip: content-box, padding-box;
+    border-radius: 50%;
+
+}
+#profile ul{
+    
+    list-style-type: none;
+    line-height: 400%;  
+
+}
+.foto{
+    width: 200px;
+
+}
+
+
+
+
+
