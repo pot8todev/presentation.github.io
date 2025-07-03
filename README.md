@@ -1,2 +1,2 @@
-apresentaçao sobre nos mesmos, para o processo seletivo da Empresa Junior da minha faculdade.      
-Este foi meu primeiro contato com html/css e o meu objetivo foi mostrar a quantidade de avanço que eu podia ter nos 5 dias de preparo que tinhamos.
+Apresentação sobre mim para o processo seletivo da Empresa Júnior da minha faculdade.
+Este foi o meu primeiro contato com HTML e CSS, e meu objetivo foi mostrar o quanto eu poderia evoluir nos cinco dias de preparo que tivemos.
